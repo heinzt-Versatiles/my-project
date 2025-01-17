@@ -1,0 +1,14 @@
+# Ignore all hidden files and folders (starting with .)
+.*
+
+# Allow .gitignore itself to be tracked
+!.gitignore
+
+# Ignore specific folders
+.cache/
+.mozilla/
+.wine/
+.linuxmint/
+
+# Ignore large media files
+*.webm
